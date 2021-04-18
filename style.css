@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@358&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center
+}
+  
+img {
+    max-width: 100%;
+    padding-top: 50px
+}
+  
+.image {
+    flex-basis: 30%
+}
+  
+.text {
+    flex-basis: 30%;
+    padding-top: 60px;
+}
