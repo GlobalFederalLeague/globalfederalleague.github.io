@@ -3,6 +3,7 @@
 
 body {
     background-color: black;
+    overflow: overlay;
 }
 
 .container {
@@ -67,7 +68,7 @@ a {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0.1);
   }
   
   /* Handle */
