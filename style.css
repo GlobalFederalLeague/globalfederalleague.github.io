@@ -49,7 +49,8 @@ img {
 .navbar a:hover {
     background: #ddd;
     color: black;
-    transition: 0.3s;
+    border-radius: 50px;
+    transition: 150ms;
 }
 
 p {
