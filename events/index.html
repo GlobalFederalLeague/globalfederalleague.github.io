@@ -54,41 +54,53 @@
                     <div class = "text">
                         <div style="display:flex;justify-content:center;align-items:center;">
                             <div style="padding-top: 15%">
-                                <h4 style = "font-family: 'Oswald', sans-serif; color: rgb(250, 192, 67);line-height:1.35em;">Nelson Mandela Day</h4>
+                                <h4 style = "font-family: 'Oswald', sans-serif; color: rgb(250, 192, 67);line-height:1.35em;">Garry Davis' Centennial Anniversary</h4>
                                 <p style="color: white; font-family: 'Raleway', sans-serif;">
-                                    The Young World Federalists, The Global Federal League and The Health Cave are commemorating International Nelson Mandela Day through two highly exciting competitive events. 
+                                    As a pioneer of the World Federalist movement and a persevering gadfly, Garry Davis was no armchair theorist and perhaps the only cosmocrat who completely devoted his entire life
+                                    to the cause. From renouncing his American Citizenship to storming into the UN, from issuing world passports and documents to crossing borders on the same- Garry's life was a
+                                    rollercoaster ride.
                                     <br>
                                     <br>
-                                    <a href = "https://forms.gle/PN2G6JLQET5zRguL6">Registration Form</a>
-                                    <br>
-                                    Registration Fee: Free
-                                    <br>
-                                    <br>
-                                    Event: Open Forum Discussion
-                                    <br>
-                                    Time: 5:30 PM IST/12:00 PM UTC
-                                    <br>
-                                    Platform: Google Meet 
-                                    <br>
-                                    Agenda: Racism and Supremacism in Modern Society
-                                    <br>
-                                    <br>
-                                    Event: Article Writing Competition
-                                    <br>
-                                    Deadline: 12:00 AM IST/6:30 PM UTC
-                                    <br>
-                                    Submission Platform: Submit your entries to globalfederalleague@gmail.com
-                                    <br>
-                                    Agenda: In Pursuit of an Egalitarian World  
+                                    Though Garry doesn't feature in history textbooks, he stays in hearts of passionate World Federalists. On his hundredth birth anniversary, we pledge to uphold his struggle and
+                                    keep it alive against the test of time.
                                 </p>
                             </div>
                         </div>
                     </div>
-                <div class = "image">
-                    <img src = "images/poster1.jpg" style="padding-left: 12%; padding-top: 50%;">
-                    <!-- <img src = "images/poster2.jpg" style="padding-left: 12%; padding-top: 50%;"> -->
+                    <div class = "image">
+                        <img src = "images/poster1.jpg" style="padding-left: 12%; padding-top: 40%; height: 90%; width: auto;">
+                    </div>
                 </div>
-                
+                <hr>
+                <br>
+                <br>
+                <center>
+                    <h4 style = "font-family: 'Oswald', sans-serif; color: rgb(250, 192, 67);line-height:1.35em;">Countdown to Garry Davis' Birthday</h4>
+                    <p id="demo" style = "color: white; font-size: xx-large;"></p>
+                    <hr>
+                    <img src = "images/poster2.jpg" style="padding-top: 5%; height: 500px; width: auto;">
+                    <br>
+                </center>
+
+                <script>
+
+                    var countDownDate = new Date("Jul 27, 2021 00:00:00").getTime();
+
+                    var x = setInterval(function() {
+                        var now = new Date().getTime();
+                        var distance = countDownDate - now;
+                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                        document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+                        if (distance < 0) {
+                            clearInterval(x);
+                            document.getElementById("demo").innerHTML = "EXPIRED";
+                        }
+                    }, 1000);
+
+                </script>
             </div>
             <!-- </div>
                 <div class = "container">
